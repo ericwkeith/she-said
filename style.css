@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "American Typewriter Regular";
+    src:
+    url("fonts/AmeriTypeReg.ttf");
+}
+
+
+body {
+    background-color: white;
+    font-family: "American Typewriter Regular", sans-serif;
+}
+
+#line { 
+    text-shadow: 1px 1px 2px rgb(43, 54, 56);
+    margin-bottom: 10px;
+    width: 365px;
+    font-size: 180%; 
+    color: black;
+}
+
+#scott {
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-left: 0px;
+    position: absolute;
+    top: 150px;
+}
+
+#sheSaid {
+    position: absolute;
+    top: 520px;
+    color: white;
+    text-shadow: 1px 1px 2px darkgray;
+    font-size: 2em;
+    left: 45px;
+}
