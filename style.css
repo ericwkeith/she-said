@@ -10,27 +10,24 @@ body {
     font-family: "American Typewriter Regular", sans-serif;
 }
 
+#container1 {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
 #line { 
-    text-shadow: 1px 1px 2px rgb(43, 54, 56);
-    margin-bottom: 10px;
-    width: 365px;
-    font-size: 180%; 
-    color: black;
+    text-shadow: black 2px 2px 2px;
+    font-size: 5vh; 
+    color: #C8894F;
 }
 
 #scott {
-    margin-top: 10px;
-    margin-left: 0px;
-    padding-left: 0px;
     position: absolute;
-    top: 150px;
-}
-
-#sheSaid {
-    position: absolute;
-    top: 520px;
-    color: white;
-    text-shadow: 1px 1px 2px darkgray;
-    font-size: 2em;
-    left: 45px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
 }
